@@ -1,0 +1,109 @@
+/*!
+ * Developer: Md. Hasibur Rashid
+ * Project work: Programming Hero Assignment-2 
+ * Licensed under GPL v3
+ */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+button{
+    background-color: #A4BC46;
+}
+
+section{
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: -2rem;
+}
+
+footer a{
+    color: #A4BC46;
+}
+
+@media screen and (max-width: 767px) {
+    .align-md-center{
+        text-align: center;    
+    }
+  }
+
+.margin-r{
+    margin-right: 30px;
+}
+
+.card-img{
+    max-height: 220px;
+    min-height: 220px;
+}
+
+.price-tag{
+    font-size: 28px;
+    color:#e7b14d;
+    font-weight: 800;
+}
+
+.btn-buy-now, .subscribe {
+    text-align: center;
+    background-color: #A4BC46;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+
+}
+
+.btn-buy-now:hover, .subscribe{
+    background-color: #87A21B;
+}
+
+.background-color{
+    background-color: #FFFBF0;
+}
+
+.footer-background-color{
+    background-color: #292928;
+    color: white;
+}
+
+.card:hover{
+    border-radius: 5px;
+    border: 5px solid #e0dd27;
+    transform: scale(1.10) ;
+    overflow: hidden;
+    transition: .3s all;
+}
+
+.ab:hover{
+    border-radius: 5px;
+    transform: scale(1.10) ;
+    overflow: hidden;
+    transition: .3s all;
+}
